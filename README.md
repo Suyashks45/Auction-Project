@@ -6,11 +6,6 @@ This project is an online auction platform built using the MERN stack (MongoDB, 
 
 Features
 
-User registration and authentication (signup/signin)
-
-Secure password hashing using bcrypt
-
-JWT-based authentication for secure access
 
 React-based frontend with Axios for API communication
 
@@ -22,7 +17,6 @@ Frontend: React, React Router, Axios
 
 Backend: Node.js, Express.js, MongoDB, Mongoose
 
-Authentication: JWT, bcrypt.js
 
 Database: MongoDB
 
@@ -67,27 +61,10 @@ npm start
 
 API Endpoints
 
-Authentication Routes
-
-POST /auth/signup - Register a new user
-
-POST /auth/signin - Authenticate a user and return a JWT token
-
-Usage
-
-Visit http://localhost:3000/signup to create an account.
-
-Visit http://localhost:3000/signin to log in.
-
-Use the token for authenticated requests.
 
 Contributing
 
 Feel free to submit issues or pull requests. Any contributions are welcome!
-
-License
-
-This project is licensed under the MIT License.
 
 Author: Suyash Kumar
 
